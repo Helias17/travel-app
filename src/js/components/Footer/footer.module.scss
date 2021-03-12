@@ -1,0 +1,19 @@
+.pageFooter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+
+  &__item {
+    padding: 0 15px;
+  }
+
+  &__authorLink {
+    color: #333;
+
+    & img {
+      margin-right: 5px;
+      vertical-align: -10%;
+    }
+  }
+}

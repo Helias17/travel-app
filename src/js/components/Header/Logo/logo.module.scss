@@ -1,0 +1,16 @@
+.logo {
+  display: flex;
+  align-items: center;
+
+  &__image {
+    width: 150px;
+    height: auto;
+    margin-right: 15px;
+  }
+
+  &__name {
+    font-family: 'Pacifico', sans-serif;
+    color: #ffa200;
+    font-size: 32px;
+  }
+}
