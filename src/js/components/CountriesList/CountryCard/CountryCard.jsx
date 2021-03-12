@@ -6,7 +6,7 @@ const CountryCard = (props) => {
   const photo = props.country.photos[0];
 
   return (
-    <div className={css.countryCard}>
+    <div className={`${css.countryCard} animate__animated animate__backInUp`}>
       <img src={photo} alt={props.country.name} className={css.countryCard__image} />
       <div className={css.countryCard__title}>
         <p className={css.countryCard__name}>{props.country.name}</p>
