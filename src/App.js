@@ -1,12 +1,13 @@
 import React from 'react';
-import Header from '@js/components/Header/Header';
+import Header from './js/components/Header/Header';
+import Footer from './js/components/Footer/Footer';
 
 const App = (props) => {
   return (
-    <div className="wrapper">
+    <>
       <Header />
-    </div>
-
+      <Footer />
+    </>
   )
 }
 
