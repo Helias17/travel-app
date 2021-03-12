@@ -1,16 +1,13 @@
 import React from 'react';
-import Header from '@js/components/header/Header';
-import Body from '@js/components/body/Body';
-import Footer from '@js/components/footer/Footer';
+import Header from '@js/components/Header/Header';
 
 const App = (props) => {
   return (
-    <div className="app__box">
+    <div className="wrapper">
       <Header />
-      <Body />
-      <Footer />
     </div>
-  );
+
+  )
 }
 
 export default App;
